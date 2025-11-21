@@ -68,3 +68,8 @@ h1.main-title {
   margin-left: 240px; 
   padding: 20px;
 }
+
+.sidebar a:active { 
+    color: white;
+    text-decoration: none; 
+}
