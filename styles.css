@@ -69,7 +69,10 @@ h1.main-title {
   padding: 20px;
 }
 
-.sidebar a:active { 
-    color: white;
-    text-decoration: none; 
+.sidebar a:link,   
+.sidebar a:visited, 
+.sidebar a:hover,
+.sidebar a:active {
+    color: white;          
+    text-decoration: none;  
 }
