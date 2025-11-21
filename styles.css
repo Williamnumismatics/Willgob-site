@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;  /* ensures body fills the viewport */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    color: #ffff;
+/*     max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    position: relative; /* needed for ::before positioning */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://hc-cdn.hel1.your-objectstorage.com/s/v3/b1c37cb9f61367b6dd4bc55f64b2c6eb6f492bbd_google_ai_studio_2025-11-19t08_21_57.758z.png');
+    background-size: 200% auto;  /* scales bigger */
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1px);  /* fixed typo */
+    z-index: -1;
+}
+
+h1 {
+    color: #2d6c96;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
+}
