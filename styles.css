@@ -29,8 +29,17 @@ body::before {
     z-index: -1;
 }
 
-h1 {
-    color: #2d6c96;
+h1.main-title {
+
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);  /* semi-transparent white background */
+    padding: 15px 15px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);  /* adds blur to background behind text */
+    font-family: 'Audiowide', sans-serif;
+
+
+    color: #2d6c96;  /* dark blue text colour */
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
     text-align: center;
