@@ -19,29 +19,14 @@
 
     <title id="secret-header">Willgob</title>
 
-    <script>
-    const header = document.getElementById('secret-header');
-    let timer;
 
-    header.addEventListener('mousedown', () => {
-        timer = setTimeout(() => {
-        window.location.href = 'secret.html';
-        }, 2000); // 2000ms = 2 seconds hold
-    });
-
-    header.addEventListener('mouseup', () => {
-        clearTimeout(timer); // cancel if released early
-    });
-
-    header.addEventListener('mouseleave', () => {
-        clearTimeout(timer); // cancel if mouse leaves header
-    });
-    </script>
 
 </head>
 <body>
 
     <div id="sidebar-container"></div>
+
+    <a id="secret-link" href="/s/willgob/secret.html"></a>
 
 
     <script>

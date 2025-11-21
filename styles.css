@@ -84,3 +84,16 @@ h1.main-title {
     color: white;          
     text-decoration: none;  
 }
+
+#secret-link {
+  position: fixed;          /* stays in place while scrolling */
+  bottom: 20px;             /* distance from bottom */
+  right: 20px;              /* distance from right */
+  width: 50px;              /* size of clickable area */
+  height: 50px;
+  display: block;           /* make width/height effective */
+  background-color: transparent; /* invisible */
+  text-decoration: none;    /* no underline */
+  z-index: 9999;            /* on top of everything else */
+  cursor: pointer;          /* show pointer on hover */
+}
