@@ -65,6 +65,6 @@ h1.main-title {
 }
 
 .content {
-  margin-left: 240px; /* leave space for sidebar */
+  margin-left: 240px; 
   padding: 20px;
 }
