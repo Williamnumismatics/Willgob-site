@@ -98,7 +98,7 @@ h1.main-title {
   cursor: pointer;          /* show pointer on hover */
 }
 
-.my-image{
+.secret-image{
     border-radius: 15px;      /* rounded corners */
     border: 2px solid #000;   /* border */
     width: 400px;             /* size */
