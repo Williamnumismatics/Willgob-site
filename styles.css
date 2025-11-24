@@ -150,4 +150,5 @@ h2.sidebar-title {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     border: 1px solid #175e8a;
     background-color: #115077a6;
+    border-radius: 4px;
 }
