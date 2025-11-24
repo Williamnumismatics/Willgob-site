@@ -104,3 +104,9 @@ h1.main-title {
     width: 400px;             /* size */
     height: auto;
 }
+
+h2.About_Me_Hello {
+    font-family: 'Audiowide', sans-serif;
+    color: #2d6c96;  /* dark blue text colour */
+    text-align: center;
+}
