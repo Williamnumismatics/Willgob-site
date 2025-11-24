@@ -107,6 +107,6 @@ h1.main-title {
 
 body .content h2.About_Me {
     font-family: 'Audiowide', sans-serif;
-    color: #2d6c96;  /* dark blue text colour */
-    text-align: center;
+    color: #40a9f0; 
+    text-align: left;
 }
