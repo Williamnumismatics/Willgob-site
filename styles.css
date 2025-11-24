@@ -138,10 +138,10 @@ h2.secret {
     background-color: #e6f7ff;
 }
 
-#result-text {
+#secret-result-text {
     font-size: 22px;
     font-weight: bold;
     min-height: 30px;
     color: #ff1100;
-    
+
 }

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const yesButton = document.getElementById('yesButton');
     const noButton = document.getElementById('noButton');
-    const resultTextElement = document.getElementById('result-text')
+    const resultTextElement = document.getElementById('secret-result-text')
 
     function handleYesClick() {
         resultTextElement.textContent = "You confirmed YES! Thank you for your input.";
