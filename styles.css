@@ -41,7 +41,7 @@ h1.main-title {
 
     font-family: 'Audiowide', sans-serif;
 
-    color: #2d6c96;  /* dark blue text colour */
+    color: #40a9f0;  /* dark blue text colour */
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
     text-align: center;
@@ -107,6 +107,6 @@ h1.main-title {
 
 body .content h2.About_Me {
     font-family: 'Audiowide', sans-serif;
-    color: #40a9f0; 
+    color: #a1d6f9; 
     text-align: left;
 }
