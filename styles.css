@@ -209,3 +209,8 @@ h3.Journal-Intro {
 .FTC-Icon span {
     font-size: 12px;
 }
+
+.FTC-Content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px
+}
