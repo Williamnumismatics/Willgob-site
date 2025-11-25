@@ -215,3 +215,20 @@ h3.Journal-Intro {
     font-size: 24px;
     
 }
+
+a {
+    color:#40a9f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #40a9f0;
+}
+
+a:active {
+    color: #FF6347;
+}
