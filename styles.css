@@ -234,41 +234,74 @@ a:active {
 }
 
 
-/* Netlify Honeypot Spam Protection */
-/* This class must hide the 'bot-field' input visually */
+/* -------------------------------------- */
+/* 1. Target the Form Container for SIZING and CENTERING */
+/* -------------------------------------- */
+form[name="contact-me-form"] {
+    /* Sets a maximum width for the form container (e.g., 500px is common) */
+    max-width: 500px; 
+    
+    /* Centers the form horizontally on the page */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Adds a little padding/space around the form for breathing room */
+    padding: 20px;
+    
+    /* Optional: Adds a subtle border and shadow to make it stand out */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* -------------------------------------- */
+/* 2. Style Form Elements (from previous example) */
+/* -------------------------------------- */
+
+/* Your existing general form paragraph styling */
+form[name="contact-me-form"] p {
+    margin-bottom: 15px;
+}
+
+/* Ensures labels are on top of their inputs */
+form[name="contact-me-form"] label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Ensures inputs fill the 500px width */
+form[name="contact-me-form"] input[type="text"],
+form[name="contact-me-form"] input[type="email"],
+form[name="contact-me-form"] textarea,
+form[name="contact-me-form"] select {
+    width: 100%; /* Important: makes the input take up 100% of the 500px container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+/* Submit Button Styling */
+form[name="contact-me-form"] button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form[name="contact-me-form"] button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Netlify Honeypot Spam Protection (keep this exactly the same) */
 .hidden-field-for-bots {
     display: none;
     visibility: hidden;
     position: absolute;
     top: -9999px;
     left: -9999px;
-}
-
-/* Optional: Basic styling to make the form look cleaner */
-form p {
-    margin-bottom: 15px;
-}
-
-form label {
-    display: block; /* Makes the label take up its own line */
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea,
-form select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-sizing: border-box; /* Includes padding in the element's total width */
-}
-
-form button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #007bff; /* Example color */
-    color: white;
-    border: none;
-    cursor: pointer;
 }
