@@ -154,3 +154,12 @@ h2.sidebar-title {
     text-align: center;
     margin-left: 35px;
 }
+
+h3.Journal-Intro {
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
