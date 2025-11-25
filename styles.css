@@ -176,3 +176,32 @@ h3.Journal-Intro {
     width: 150px;
     transition: background-color 0.3s, transform 0.3s;
 }
+
+.FTC-Icon {
+    display: flex;
+    flex-direction: column;   /* stack image above text */
+    align-items: center;      /* center horizontally */
+    justify-content: center;
+    text-decoration: none;    /* remove underline */
+    background-color: #2d6c96;
+    color: white;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 14px;
+    width: 80px;              /* width of button */
+    height: 80px;             /* height of button */
+    border-radius: 4px;       /* makes it a circle */
+    padding: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.FTC-Icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 2px
+}
+
+.FTC-Icon:hover {
+    background-color: #1b4c73;
+    transform: scale(1.1);
+}
