@@ -15,10 +15,28 @@ document.addEventListener('DOMContentLoaded', function() {
     function handleNoClick() {
         resultTextElement.textContent = "You declined NO. We will consider your choice.";
         resultTextElement.style.color = "#dc3545"; // Red color
-        console.lop("noo")
+        console.log("noo")
     }
 
     // 5. Attach the functions to the button click events (Event Listeners)
     yesButton.addEventListener('click', handleYesClick);
     noButton.addEventListener('click', handleNoClick);
+
+    async function loadJournal() {
+    const url = "hhttps://raw.githubusercontent.com/Williamnumismatics/MagStrike/refs/heads/main/JOURNAL.md";
+
+    try {
+        const res = await fetch(url);
+        const md = await res.text();
+
+        // Convert markdown → HTML
+        document.getElementById("journal").innerHTML = marked.parse(md);
+
+    } catch (err) {
+        console.error("Error loading journal:", err);
+        document.getElementById("journal").innerHTML = "<p>Failed to load journal.</p>";
+    }
+    }
+
+    loadJournal();
 });

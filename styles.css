@@ -301,3 +301,13 @@ form[name="contact-me-form"] button[type="submit"]:hover {
     font-size: 24px;
     color: beige;
 }
+
+#journal {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+#journal h1, #journal h2, #journal h3 {
+  margin-top: 1.5em;
+}
