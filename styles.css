@@ -98,7 +98,7 @@ h1.main-title {
   background-color: transparent; /* invisible */
   text-decoration: none;    /* no underline */
   z-index: 9999;            /* on top of everything else */
-  cursor: pointer;          /* show pointer on hover */
+  cursor: default;          /* show pointer on hover */
 }
 
 .secret-image{
