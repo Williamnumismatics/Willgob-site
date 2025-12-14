@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
     padding: 20px;
     position: relative; /* needed for ::before positioning */
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* allows for flexible layout */
 }
 
 body::before {
