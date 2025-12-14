@@ -315,3 +315,10 @@ form[name="contact-me-form"] button[type="submit"]:hover {
 .header-press:hover {
     text-decoration: none;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
